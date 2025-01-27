@@ -5,3 +5,56 @@
     box-sizing: border-box;
   }
 
+
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .navbar .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+
+  .navbar .nav-links a {
+    text-decoration: none;
+  }
+
+  .home{
+    color: #FEA301;
+  }
+
+  .about{
+    color:#01ACFD ;
+  }
+  .facilities{
+    color: #05D4DF;
+  }
+
+  .admission{
+    color:#5D58EF
+  }
+
+
+  .navbar .contact-btn {
+    padding: 0.5rem 1rem;
+    background-color: #FEA301;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
